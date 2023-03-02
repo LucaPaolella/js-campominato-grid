@@ -26,3 +26,17 @@ for(let i = 1; i <= cellNumber; i++){
     myAppendElement(containerBoard, createdElement);
 }
 
+
+//button 
+
+const play=document.getElementById("play");
+const start=document.querySelector(".corpo");
+const none =document.querySelector(".none");
+
+document.getElementById("play").addEventListener('click',
+    function () {
+
+        start.classList.add("show");
+        none.classList.remove("none");
+
+    });
